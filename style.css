@@ -87,7 +87,7 @@
   }
   
   /* check box for dark mode */
-  .dark-mode {
+  .dark-mode , textarea {
     background-color: #1a2424;
     color:#afc9c9;
   }
