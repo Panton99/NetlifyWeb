@@ -5,8 +5,13 @@ Personal Website Project
 1.Program name: Personal Website of Jisoo
 
 2.Purpose:<br>
-- To introduce myself
+ - To introduce myself (school, major, and hobbies)
+ - To organize outcomes (publications, projects)
 
 3.Descriptions<br>
+ - Introduction of myself
+ - Publication & GitHub
+ - Resume
+ - Contact page
 
-4.Assumptions/Expectations<br>
+
