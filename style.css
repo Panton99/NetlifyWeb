@@ -19,6 +19,7 @@
     .side-menu a {
       padding: 20px;
     }
+ 
   }
   
   body {
@@ -60,12 +61,7 @@
   .side-menu div {
     list-style: none;
   }
-  
-  .buffer {
-    width: 100%;
-    min-height: 60vh;
-    background-color: 9b8ace;
-  }
+
   .side-menu li {
     cursor: pointer;
     display: block;
@@ -94,10 +90,16 @@
     font-size: 25px;
     color: #685997;
   }
-  
+
+   /* buffer between each section*/
+   .buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: 9b8ace;
+  }
   
   /* check box for dark mode */
-  .dark-mode ,textarea, input {
+  .dark-mode, textarea, input {
     background-color: #1a2424;
     color:#afc9c9;
   }
@@ -121,23 +123,53 @@
     color: #685997;
     font-style: oblique;
   }
-  .text {
-    font-family: Arial, Helvetica, sans-serif;
-  }
 
-  .text-syn {
-    font-size: 14px;
-    display: flex;
-    margin-block-start: 16px;
+  /* title style */
+  .title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 15px;
   }
-  .textBody {
-   padding:10px;
+  .title-home, .intro-home {
+    text-align:left;
+    font-size: 28px;
+    font-weight: 100;
+    max-width: 700px;
+    padding-bottom: 15px;
+    line-height: 1.5;
   }
+  .text-intro-main {
+    text-align:left;
+    max-width: 700px;
+    padding-bottom: 15px;
+    line-height: 2.5;
+  }
+  /* main style */
   .Home-main {
     display: flex;
     justify-content: center;
   }
 
+  /* Home introduction style */
+  .myName {
+    font-weight: 700;
+    color: #685997;
+  }
+  .phonetic {
+    font-size: 20px;
+    color: #685997;
+  }
+  
+   /* text style */
+  .text {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .textBody {
+   padding:10px;
+  }
+  
   .text button {
     margin-left: 30px;
     border-style: solid;
@@ -154,16 +186,23 @@
     background-color: #80b1ba;
     color: white;
   }
-  
+   /* Image of me */
   .Jisoo-img {
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 190px;
   }
+  .Jisoo-img-p {
+    align-items: center;
+  }
+  .video-p,.video-info {
+    text-align: center;
+  }
+   /* project table */
   .table-style, .table-style th, .table-style tr{
     border-collapse: collapse;
+    line-height: 1.5;
     padding: 12px 15px 10px 10px ;
   }
-
   th {
     background-color: #617f85;
     color: white;
@@ -177,9 +216,32 @@
   .active:hover {
     background: #685997;
   }
-  
+
+  /* icon style */
+  .github-icon {
+    display: inline-block;
+    padding-right: 3px;
+    padding-left: 3px;
+    color: #685997;
+    font-size: 40px;
+  }
+  .github-icon:hover {
+    color: #2b1f4d;
+    transition: all 200ms ease-in-out;
+  }
+  .linkedin-icon:hover {
+    color: #2b1f4d;
+    transition: all 200ms ease-in-out;
+  }
+  .linkedin-icon {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 3px;
+    color: #685997;
+    font-size: 40px;
+  }
+  /* form style */
   .form_input {  
-    position: relative;
     margin: 20px 0;
   }
   
@@ -227,7 +289,7 @@
     transition: all 250ms ease-in-out;
   }
 
-  .form h1, input::-webkit-input-placeholder, .submit {
+  .input::-webkit-input-placeholder, .submit {
     transition: all 200ms ease-in-out;
     text-align: center;
   }
@@ -239,3 +301,7 @@
     padding-bottom: 50px;
     border-radius: 2px;
   }
+ /* footer style */
+ .footer {
+  text-align: center;
+ }
