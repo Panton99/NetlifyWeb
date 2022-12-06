@@ -25,6 +25,7 @@
     background-color: snow;
     width: 100%;
     height: 100%;
+    color: #1a2424;
   }
   
   :root {
@@ -39,9 +40,12 @@
   }
   
   .head-class {
+    position: fixed;
+    top:0;
     overflow: hidden;
     text-align: center;
     display: block;
+    width: 100%;
     background-color: #afc9c9;
   }
   
@@ -57,6 +61,11 @@
     list-style: none;
   }
   
+  .buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: 9b8ace;
+  }
   .side-menu li {
     cursor: pointer;
     display: block;
@@ -67,7 +76,7 @@
   .side-menu a {
     text-decoration: none;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     margin: 20px auto;
     text-transform: uppercase;
     color: #685997;
@@ -86,8 +95,9 @@
     color: #685997;
   }
   
+  
   /* check box for dark mode */
-  .dark-mode , textarea {
+  .dark-mode ,textarea, input {
     background-color: #1a2424;
     color:#afc9c9;
   }
@@ -113,14 +123,21 @@
   }
   .text {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 30px;
-    padding: 10px;
   }
 
+  .text-syn {
+    font-size: 14px;
+    display: flex;
+    margin-block-start: 16px;
+  }
   .textBody {
    padding:10px;
   }
-  
+  .Home-main {
+    display: flex;
+    justify-content: center;
+  }
+
   .text button {
     margin-left: 30px;
     border-style: solid;
@@ -142,7 +159,11 @@
     border-radius: 50%;
     margin-left: 20px;
   }
- 
+  .table-style, .table-style th, .table-style tr{
+    border-collapse: collapse;
+    padding: 12px 15px 10px 10px ;
+  }
+
   th {
     background-color: #617f85;
     color: white;
@@ -153,10 +174,8 @@
   tr:hover {
     background-color: #dceeee;
   }
-  .resume-pdf {
-    margin-left: 15%;
-    width: 70%;
-    height: 100%;
+  .active:hover {
+    background: #685997;
   }
   
   .form_input {  
@@ -165,9 +184,11 @@
   }
   
   input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
     background: none;
     display: block;
     border: none;
+    color: #737879;
     border-radius: 0;
     width: 450px;
     margin: 20px, 25px;
@@ -176,7 +197,7 @@
     padding: 10px 10px 10px 5px;
   }
   input, textarea :focus {
-      outline: none;
+    outline: none;
   }
 
   .form label {
@@ -218,7 +239,3 @@
     padding-bottom: 50px;
     border-radius: 2px;
   }
-
-.error {
-  color: red;
-}
