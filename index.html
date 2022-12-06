@@ -19,38 +19,301 @@
             </label>
             <input type="checkbox" id="menu-toggle" />
               <div class="menu-links">
-                <a href="index.html" class="active">Home</a>
-                <a href="Jisoo-about.html">About Jisoo</a>
-                <a href="Jisoo-projects.html">Projects and Publications</a>
-                <a href="Jisoo-resume.html">Resume</a>
-                <a href="contact.html" class="active">Contact</a>
+                <a href="#anchor-1" class="active">Home</a>
+                <a href="#anchor-2">About Jisoo</a>
+                <a href="#anchor-3">Projects and Publications</a>
+                <a href="#anchor-4">Resume</a>
+                <a href="#anchor-5" class="active">Contact</a>
                 <button type="button" value="dark" id="dark-button" onclick="onClick()">&#9789;</button>
               </div>    
           </nav>  
         </div>
       </div>
-      <div id="Home-main" class="Home-main">
-        <div class="textBody">
-        <div class="text">
-          <!-- brief introduction -->
-          <iframe class="Jisoo-img" src="https://drive.google.com/file/d/1rQk9UOiWYOI3wR0OuqCUgC0dou7oesp-/preview"  width="300" height="300"></iframe>
-          <h1 class="Home-main-introduction">Jisoo Kim</h1>
-          <!-- list of summary -->
-          <p>
-            <ul>
-              <li>
-               Computer Science graduate student at Boston University<br><br>
-              </li>
-              <li>Belmont, MA <br><br></li>
-              <li>She/Her/Hers <br><br></li>
-              <li>
-              If you want to find more click 'ABOUT JISOO' &#128512;
-              </li>
-          </ul>
-          </p>
+      <section id="anchor-1">
+        <a name="anchor-padding">
+          <h1 style="padding-top: 40px; margin-top: 40px;"></h1>
+        </a>
+        <div id="Home-main" class="Home-main">
+          <div class="textBody">
+          <div class="text-brief-intro">
+            <h1 class="Home-main-introduction">Jisoo Lee (Jisoo Kim) 
+              <div class="text-syn">
+                [she/her]
+              </div>
+            </h1>
+            <!-- list of summary -->
+            <div class="intro">
+              <p class="intro-home">
+                Hello! I'm Jisoo, a graduate student in Computer Science.<br> 
+                I'm interested in software engineering and data-engineering. <br>
+                Thank you for visiting!
+              </p>
+              <p>
+                Skills
+              </p>
+            </div>
+            <img class="skills" src="https://skillicons.dev/icons?i=java,js,py,html,css,nodejs,r,mysql">
+          </div>
+         </div>
         </div>
-       </div>
-      </div>
+      </section>
+
+      <section class="buffer"></section>
+
+      <section id="anchor-2">
+        <a name="anchor-padding">
+          <h1 style="padding-top: 40px; margin-top: 40px;"></h1>
+        </a>
+        <div  id="Home-main" class="Home-main">
+          <div class="text">
+            <!-- introduction -->
+            <iframe class="Jisoo-img" src="https://drive.google.com/file/d/1rQk9UOiWYOI3wR0OuqCUgC0dou7oesp-/preview" width="300" height="300"></iframe>
+            <h1 class="Home-main-introduction">Hi, I am Jisoo.</h1>
+           <div class="text-intro-main">
+            <p>
+              I am a Computer Science graduate student at Boston University MET and from South Korea.<br><br>
+              Currently, I live in Boston with my family.<br><br>
+              I am a non-traditional Computer Science student.<br><br>
+              My past educations are Microbiology with Biomedical Science (B.S) and Environmental Health Science (MPH). <br><br>
+              3 years of working experience in microbiome sequencing and Biological data engineering. <br><br>
+              I am gaining experience in software engineering and love to learn more!<br><br>
+           
+              My hobbies are Splatoon3 Switch gaming, coffee, and normally working out at 'mvvv club'.<br><br>
+              My coffee of choice is a coffee bean name "Big Joy" from Camber Coffee. <br><br>
+              If you want to talk more, feel free to reach me at
+              <button
+                onclick="window.location.href='https://www.linkedin.com/in/jisoo-lee-b200a215b'"
+              >
+                linkedin
+              </button>
+            </p>
+           
+            <!-- video -->
+            <a
+              >This video is me online-working out team 'mvvv club'.<br><br>
+            </a> 
+              <iframe class="video" src="https://drive.google.com/file/d/1duEByofaP0BlT2-SScTkxH3vfaz1Hi0O/preview" width="400" height="300" allow="autoplay"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="buffer"></section>
+
+      <section id="anchor-3">
+        <a name="anchor-padding">
+          <h1 style="padding-top: 40px; margin-top: 40px;"></h1>
+        </a>
+        <div  id="Home-main" class="Home-main">
+          <div class="text">
+            <h1>Projects and publications</h1>
+            <!-- BU image -->
+            <img
+              class="about-BU-img"
+              src="https://www.bu.edu/brand/files/2019/06/master_logo.gif"
+              alt="BU logo"
+              style="width: 100px; height: 45px"
+            >
+            <!-- project link -->
+            <div class="link-text">
+              <ul>
+                <li>
+                  <strong
+                    >Projects are listed in my Github. What I have learned from
+                    BU.<br></strong>
+                </li>
+              </ul>
+              <button onclick="window.location.href='https://github.com/Panton99'">
+                Go to Jisoo's GitHub"
+              </button>
+              <ul>
+                <li>
+                  <strong>Published journal lists<br></strong>
+                </li>
+              </ul>
+            </div>
+            
+  
+            <!-- table of journals -->
+            <div class="table-text">
+              <table class="table-style">
+                <tr>
+                  <th>#</th>
+                  <th>Journal</th>
+                  <th>Link</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    Lee, K., <strong>Kim, J.</strong>, Sim, J., Park, S., Shim, J.,
+                    and Lee, J. (2021).<br>
+                    Lactobacillus plantarum HY7715 Ameliorates Sarcopenia by
+                    Improving Skeletal Muscle<br>
+                    Regeneration in Aged Balb/c Mice, International Journal of
+                    Molecular Sciences. 22(18), 10023
+                  </td>
+                  <td>
+                    <button
+                      onclick="window.location.href='https://www.mdpi.com/1422-0067/22/18/10023'"
+                    >
+                      Link
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>
+                    Nam, W., Kim, H.,<strong> Kim, J.</strong>, Nam, B., Bae, C.,
+                    Kim, J., Park, S., Lee, J, and Sim, J. (2021).<br>
+                    Lactic Acid Bacteria and Natural Product Complex Ameliorate
+                    <br>Ovalbumin-induced Airway Hyperresponsiveness in Mice.
+                    Journal of Medicinal Foods. 24(5)
+                  </td>
+                  <td>
+                    <button
+                      onclick="window.location.href='https://www.liebertpub.com/doi/10.1089/jmf.2020.4853'"
+                    >
+                      Link
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>
+                    <strong>Kim, J.</strong>, Kim, J, Jeong, J., Choi, I., Park, S.,
+                    Lee, J, and Sim, J. (2020).<br>
+                    Potential of Lilium lancifolium in Alleviating Pain and
+                    Inflammation in <br>a Rat Model of Monosodium
+                    Iodoacetate-Induced Osteoarthritis. Korean Journal of Plant
+                    Resources. 33(6), 638-644
+                  </td>
+                  <td>
+                    <button
+                      onclick="window.location.href='http://koreascience.or.kr/article/JAKO202034965719708.page'"
+                    >
+                      Link
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>
+                    Lee, H., Kim, J.,<strong> Kim, J.</strong>, Nam, B., and Kim, O.
+                    (2020).<br>
+                    Anti-Helicobacter pylori Activity of a Complex Mixture of
+                    Lactobacillus paracasei HP7 Including <br>the Extract of
+                    Perilla frutescens var. acuta and Glycyrrhiza glabra. Laboratory
+                    Animal Research. 36(40)
+                  </td>
+                  <td>
+                    <button
+                      onclick="window.location.href='https://labanimres.biomedcentral.com/articles/10.1186/s42826-020-00073-x'"
+                    >
+                      Link
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>
+                    Nam, W., Kim, H., Bae, C., <strong>Kim, J.</strong>, Nam, B.,
+                    Lee, Y., Kim, J., Park, S., Lee, J., and Sim, J. (2020).<br>Lactobacillus
+                    HY2782 and Bifidobacterium HY8002 Decrease <br>Airway
+                    Hyperresponsiveness Induced by Chronic PM2.5 Inhalation in Mice.
+                    Journal of Medicinal Food. 23(6).
+                  </td>
+                  <td>
+                    <button
+                      onclick="window.location.href='https://www.liebertpub.com/doi/10.1089/jmf.2019.4604?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed&'"
+                    >
+                      Link
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>
+                    Nam, B., Kim, S., Park, S., Kim, H.,<strong> Kim, J.</strong>,
+                    Bae, C., Kim, J., Nam, W., Lee, J., and Sim, J. (2020).<br>
+                    Regulatory Effects of Lactobacillus plantarum HY7714 on
+                    <br>Skin Health by Improving Intestinal Condition. PloS one.
+                    15(4), e0231268
+                  </td>
+                  <td>
+                    <button
+                      onclick="window.location.href='https://doi.org/10.1371/journal.pone.0231268'"
+                    >
+                      Link
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="buffer"></section>
+
+      <section id="anchor-4"> 
+        <a name="anchor-padding">
+          <h1 style="padding-top: 40px; margin-top: 40px;"></h1>
+        </a>
+        <div  id="Home-main" class="Home-main">
+          <div class="text-resume">
+            <!-- resume pdf -->
+            <h1>Resume</h1>
+          <div
+            class="resume-pdf"
+            style="-webkit-overflow-scrolling: touch; overflow: auto"
+          >
+            <iframe src="https://drive.google.com/file/d/1OHPoHJmUvFXGKD-j9zatCCWDYBSmdU5c/preview" width="700" height="780" allow="autoplay"></iframe>
+          </div>
+         </div>
+        </div>
+      </section>
+
+      <section class="buffer"></section>
+
+      <section id="anchor-5">
+        <a name="anchor-padding">
+          <h1 style="padding-top: 40px; margin-top: 40px;"></h1>
+        </a>
+        <form class="form" id="form" method="post" action="https://formspree.io/f/xpznegng">
+          <h1 class="h1">Submit</h1>
+          <input type="hidden" name="success" value="thanks.html">
+          <div class="wraper" id="wrapper">
+              <!-- First name text -->
+              <div class="form firstName">
+                  <label for="firstName">First Name</label>
+                  <input type="text" id="firstName" name="firstName" class="form_input" placeholder="Enter your first name" required>
+                  <small class="error" id ="fNameMsg"></small>
+              </div>
+              <!-- Last name text -->
+              <div class="form lastName">
+                  <label for="lastName">Last Name </label>
+                  <input type="text" id="lastName" name="lastName" class="form_input" placeholder="Enter your last name" required>
+                  <small class="error" id ="lNameMsg"></small>
+              </div>
+              <!-- Faculty's name text -->
+              <div class="form email">
+                  <label for="email">Email Address </label>
+                  <input type="text"  id="email" name="email" class="form_input" cols="30" rows="10" placeholder="abc@abc.com" required>
+                  <label for="body">Message </label>
+                  <textarea name="body" placeholder="Type your message" class="form_input"></textarea>    
+                  <small class="error" id ="emailMsg"></small>
+              </div>
+              <!-- Submission button -->
+              <div class="submit">
+                  <small class="error" id ="errMsg"></small>
+                  <button type="submit" id="button-submit" class="contact-form">Submit</button>
+              </div>
+              <div id="submitMsg"></div>
+          </div>
+      </form>   
+      </section>
+
       </div>
   </body>
 </html>
