@@ -280,7 +280,7 @@
     box-shadow: inset;
     
   }
-  .submit {
+  .submit, .h1 {
     text-align: center;
   }
   #button-submit:hover {
