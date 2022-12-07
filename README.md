@@ -6,7 +6,7 @@ Personal Website Project
 
 2.Purpose:<br>
  - To introduce myself (school, major, and hobbies)
- - To organize outcomes (publications, projects)
+ - To organize the outcomes (publications, projects)
 
 3.Descriptions<br>
  - Introduction of myself
