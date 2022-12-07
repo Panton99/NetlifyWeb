@@ -301,6 +301,10 @@
     padding-bottom: 50px;
     border-radius: 2px;
   }
+  .contact, .thanks {
+    margin-top: 100px; 
+  }
+
  /* footer style */
  .footer {
   text-align: center;
