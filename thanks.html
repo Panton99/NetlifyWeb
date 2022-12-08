@@ -30,28 +30,23 @@
             <div class=Home-main>
                 <a name="anchor-padding">
                      <h1 style="padding-top: 40px; margin-top: 50px;"></h1>
-                 </a>
-<!--                 <h1 class="contact">Thank you. I will try to contact you as soon as possible!</h1>
-                 -->
-                
-                
+                </a>
+            //Using Vue for thank you message
               <div id="app">
                 <h1 class="contact">{{thankyou}}</h1>
                  <a class="contact" v-bind:href="link">Go back to web</a>
               </div>
-  
-               <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  
-        <script>
-            var app = new Vue({
-                el: '#app',
-                data: {
-                    thankyou: 'Thank you. I will contact you as soon as possible!',
-                    link: 'https://panton99.netlify.app/'
-                }
-            })
-         </script>
-            </div>
+              <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+              <script>
+                 var app = new Vue({
+                     el: '#app',
+                     data: {
+                         thankyou: 'Thank you. I will contact you as soon as possible!',
+                         link: 'https://panton99.netlify.app/'
+                     }
+                 })
+              </script>
+          </div>
     </body>
 </html>
 
